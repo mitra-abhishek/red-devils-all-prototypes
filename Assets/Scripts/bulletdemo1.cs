@@ -48,4 +48,9 @@ public class bulletdemo1 : MonoBehaviour
             Instantiate(arrow, arrowTransform.position, Quaternion.identity);
         }
     }
+
+    private void OnCollisionEnter2D(Collision2D col)
+    {
+        Debug.Log("Collision Detected");
+    }
 }

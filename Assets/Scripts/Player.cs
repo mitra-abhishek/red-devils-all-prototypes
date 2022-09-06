@@ -13,7 +13,7 @@ public class Player : MonoBehaviour
     
     // Start is called before the first frame update
     void Start(){
-        controller = gameObject.AddComponent<Rigidbody2D>();
+            controller = gameObject.AddComponent<Rigidbody2D>();
     }
 
     // Update is called once per frame
